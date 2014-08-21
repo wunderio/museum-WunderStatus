@@ -1,7 +1,8 @@
 require 'dashing'
 
 configure do
-  set :auth_token, '12345asdfg'
+  set :auth_token, ENV['AUTH_TOKEN']
+  set :default_dashboard, 'index'
 
   helpers do
     def protected!
