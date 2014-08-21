@@ -3,3 +3,4 @@ history.yml
 .idea
 8081
 Gemfile.lock
+*.pid
