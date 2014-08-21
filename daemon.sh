@@ -2,7 +2,7 @@
 
 DESC="Dashing"
 DASHING_DIR="/var/www/dashing"
-INSTANCE_DIR="$DASHING_DIR/wunderroot_dashboard"
+INSTANCE_DIR="$DASHING_DIR/wunderstatus"
 PIDFILE="$INSTANCE_DIR/tmp/pids/unicorn.pid"
 DAEMON="unicorn"
 DAEMONOPTS=" -c ./unicorn.rb -p 3030 -D"

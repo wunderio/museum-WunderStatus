@@ -1,6 +1,6 @@
 # Set the working application directory
 # # working_directory "/path/to/your/app"
-@dir = "/var/www/dashing/wunderroot_dashboard/"
+@dir = "/var/www/dashing/wunderstatus/"
 
 working_directory @dir
 
